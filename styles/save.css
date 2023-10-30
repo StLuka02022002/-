@@ -1,0 +1,18 @@
+/* Стиль кнопок */
+.button {
+    -fx-background-color: #b1c3c9; /* Светло-голубой цвет фона */
+    -fx-text-fill: #FFFFFF; /* Белый цвет текста */
+    -fx-font-size: 16px; /* Размер шрифта */
+    -fx-font-weight: bold; /* Жирный шрифт */
+    -fx-padding: 10px 10px; /* Отступы внутри кнопки */
+    -fx-background-radius: 5px; /* Закругленные углы */
+}
+
+.button:hover {
+    -fx-background-color: #87CEEB; /* Светло-голубой цвет фона при наведении */
+}
+
+/* Дополнительные стили для разных состояний кнопки, например, нажатой кнопки */
+.button:pressed {
+    -fx-background-color: #1E90FF; /* Голубой цвет фона при нажатии */
+}
