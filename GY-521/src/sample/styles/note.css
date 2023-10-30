@@ -1,0 +1,35 @@
+/* Стиль кнопок */
+.button {
+    -fx-background-color: #b1c3c9; /* Светло-голубой цвет фона */
+    -fx-text-fill: #FFFFFF; /* Белый цвет текста */
+    -fx-font-size: 16px; /* Размер шрифта */
+    -fx-font-weight: bold; /* Жирный шрифт */
+    -fx-padding: 5px 5px; /* Отступы внутри кнопки */
+    -fx-background-radius: 5px; /* Закругленные углы */
+}
+
+.button:hover {
+    -fx-background-color: #87CEEB; /* Светло-голубой цвет фона при наведении */
+}
+
+/* Дополнительные стили для разных состояний кнопки, например, нажатой кнопки */
+.button:pressed {
+    -fx-background-color: #1E90FF; /* Голубой цвет фона при нажатии */
+}
+
+/* Стиль для TextArea */
+.text-area {
+    -fx-font-family: "Verdana"; /* Новый шрифт (Verdana) */
+    -fx-font-size: 16px; /* Увеличенный размер шрифта */
+    -fx-text-fill: #006400; /* Зеленый цвет текста */
+    -fx-font-style: italic; /* Наклонный шрифт */
+    -fx-background-color: #F0F0F0; /* Цвет фона */
+    -fx-border-color: #CCCCCC; /* Цвет рамки */
+    -fx-border-width: 1px; /* Ширина рамки */
+    -fx-border-radius: 5px; /* Закругленные углы */
+    -fx-padding: 5px; /* Отступы внутри TextArea */
+}
+
+.text-area:focused {
+    -fx-border-color: #0070E0; /* Цвет рамки при активации */
+}
